@@ -1,0 +1,20 @@
+item {
+  id: 1
+  name: 'lazul'
+}
+
+item {
+  id: 2
+  name: 'lverde'
+}
+
+item {
+  id: 3
+  name: 'vazam'
+}
+
+item {
+  id: 4
+  name: 'vamve'
+}
+

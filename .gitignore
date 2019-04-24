@@ -1,0 +1,14 @@
+*.mp4
+model/
+out/
+pngs/
+pretrained_model/
+test/
+train-org/
+train/
+valid/
+*.csv
+!mytrain-cajas-originales.csv
+!myvalid-cajas-originales.csv
+*.record
+
