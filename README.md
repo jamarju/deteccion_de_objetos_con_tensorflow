@@ -25,7 +25,7 @@ apt install axel ffmpeg
 conda env create -n dl -f=conda/env.yml
 ```
 
-* Bajar https://github.com/tensorflow/models y descomprimir en `~/git`
+* Bajar https://github.com/tensorflow/models y descomprimir o clonar en `~/git`
 
 * Arreglar esto a mano mientras no acepten el PR: https://github.com/tensorflow/models/pull/6044/files
 
@@ -65,6 +65,10 @@ conda activate dl
 ```
 ./gen.sh
 ```
+
+* Para hacer un experimento nuevo lo más fácil es:
+  * Duplicar la config del anterior (dir `configs`) y modificar lo que queramos
+  * Modificar `MODEL` y `CONFIG` en `vars.sh` para apuntar al nuevo experimento
 
 * Entrenar:
 
